@@ -1,7 +1,7 @@
 
 name: Python package
 
-on: [push fork]
+on: [push, fork, create]
 
 jobs:
   build:
