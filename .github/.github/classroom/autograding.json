@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Suma",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_calc.py::TestCalculator::test_addition",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Resta",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_calc.py::TestCalculator::test_subtraction",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }, 
+    {
+      "name": "Multiplicación",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_calc.py::TestCalculator::test_multiplication",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }, 
+    {
+      "name": "División",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_calc.py::TestCalculator::test_division",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }, 
+    {
+      "name": "Cuadrado",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_calc.py::TestCalculator::test_square",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }, 
+    {
+      "name": "Raiz",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_calc.py::TestCalculator::test_square_root",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }  
+  ]
+}
